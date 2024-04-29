@@ -1,0 +1,107 @@
+.ip{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#ip{
+    font-size: 15px;
+    width: 400px;
+    height: 10px;
+    border-radius: 14px 0 0 14px ;
+    padding: 20px;
+}
+#search{
+    background-color:hsl(0, 0%, 17%);
+    width: 60px;
+    height: 56px;
+    border-radius: 0 14px 14px 0;
+}
+#disp{
+    display: flex;
+    padding: 50px;
+    margin-left: 20%;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+#first{
+    width: 250px;
+    height: 100px;
+    text-align: left;
+}
+#second{
+    text-align: left;
+    width: 250px;
+    height: 100px;
+    padding-left: 20px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+#third{
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    padding-left: 20px;
+    text-align: left;
+    border-right: 1px solid grey;
+}
+#forth{
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    padding-left: 20px;
+    text-align: left;
+}
+p{
+    padding: 10px;
+    margin: auto;
+    color: hsl(0, 0%, 59%);
+}
+h1{
+    padding: 0;
+    text-align: left;
+    margin-top: 0;
+}
+@media screen and (max-width: 375px) {
+    .ip{
+        height: auto;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    #ip {
+        width: 70%;
+        height: 30px;
+        border-radius: 10px 0 0 10px ;
+    }
+    #search {
+      width: 40px;
+      height: 40px;
+      border-radius: 0 10px 10px 0 ;
+      margin-top: 1px;
+    }
+  
+    #disp {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      width: 70%;
+      height: auto;
+      text-align: left;
+      justify-content: center;
+    }
+  
+    #first, #second, #third, #forth {
+        height: auto;
+        width: 70%;
+        margin-bottom: 10px;
+        border: none;
+    }
+  }

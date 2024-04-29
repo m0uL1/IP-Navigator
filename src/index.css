@@ -1,0 +1,39 @@
+body{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: Rubik;
+}
+#h{
+  color: white;
+  font-family: Rubik;
+  text-align: center;
+}
+#start{
+  text-align: center;
+  background: url('/pattern-bg-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    border: 0;
+}
+.menu{
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+}
+#map{
+  background: url('/GoogleMapTA.jpg');
+  width: 100%;
+  height: 26vw;
+}
+
+@media screen and (max-width: 375px){
+
+  #start{
+    background-color: url('image.png');
+    width: 100%;
+    height: 30%;
+  }
+}
