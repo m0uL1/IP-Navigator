@@ -20,12 +20,13 @@
 #disp{
     display: flex;
     padding: 50px;
-    margin-left: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 30px;
     align-items: center;
     text-align: center;
     justify-content: center;
-    width: 800px;
+    width: 60vw;
     height: 30px;
     background-color: white;
     border-radius: 15px;
@@ -92,16 +93,27 @@ h1{
       display: flex;
       flex-direction: column;
       padding: 20px;
-      width: 70%;
-      height: auto;
+      width: 60vw;
+      height: 40vh;
       text-align: left;
       justify-content: center;
     }
   
     #first, #second, #third, #forth {
-        height: auto;
-        width: 70%;
-        margin-bottom: 10px;
+        width: 50vw;
+        height: 10vw;
+        margin: 20px;
         border: none;
+    }
+    p{
+        padding: 10px;
+        margin: auto;
+        color: hsl(0, 0%, 59%);
+    }
+    h1{
+        height: 10px;
+        padding: 0;
+        text-align: left;
+        margin-top: 0;
     }
   }

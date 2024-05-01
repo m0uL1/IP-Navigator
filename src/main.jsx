@@ -7,6 +7,6 @@ import FetchAPI from './Fetch'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
   <FetchAPI />
-    
+
   </>    
 )

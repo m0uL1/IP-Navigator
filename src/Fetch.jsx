@@ -4,7 +4,7 @@ import './Fetch.css';
 
 
 function FetchAPI(){
-    const url="https://geo.ipify.org/api/v2/country?apiKey=at_FmRwNdh7bIihyQLyct0GceMCgNHgn&ipAddress=";
+    const url="https://geo.ipify.org/api/v2/country?apiKey=at_brXgWS1UDw9v5NWKbiyH3j9nDexYb&ipAddress=";
     let c;
     
     const [data, setData] = useState()  
